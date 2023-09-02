@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Home-Fi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body id="body">
+    <!-- navbar start -->
     <nav id="navbar">
         <img src="/images/navbar/homefi.png" alt="">
         <div id="navbar-right-side">
             <ul class="menu">
-                <li><a href="">Home</a></li>
+                <li><a id="home" href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Properties</a></li>
                 <li><a href="">Pages</a></li>
@@ -20,14 +22,92 @@
             <div id="flag">
                 <img src="/images//navbar/flag.png" alt="">
                 <select class="flag-input">
-                    <option value="volvo">En</option>
+                    <option value="">En</option>
                   </select>
             </div>
             <button class="btn-sign-in">Sign In</button>
         </div>
     </nav>
+    <!-- navbar end -->
+
+    <!-- banner start -->
     <section id="banner">
-        <h1>banner</h1>
+        <div id="banner-top-circle"></div>
+        <div class="rent-option">
+            <div  class="rent-input">
+                <select>
+                    <option value="">Location</option>
+                  </select>
+                  <p>Long beach, California</p>
+            </div>
+            <div  class="rent-input">
+                <select>
+                    <option value="">Type</option>
+                  </select>
+                  <p>House & Villa</p>
+            </div>
+            <div  class="rent-input">
+                <select>
+                    <option value="">Payment</option>
+                  </select>
+                  <p>Advance</p>
+            </div>
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="banner-left">
+            <h1 class="banner-title">Easiest Way To Find Your Dream Place</h1>
+            <hr id="banner-line">
+            <p class="banner-subtitle">No matter how much you know about a particular medical healthcare professional, you always need to be thinking about what's the possibilities?
+            </p>
+            <div class="button-group">
+                <button class="banner-button-1">Buy</button>
+                <button class="banner-button-2">Rent</button>
+            </div>
+            <div class="achievement">
+                <div>
+                    <h1>50+</h1>
+                    <h3>Awards</h3>
+                </div>
+                <div>
+                    <h1>200+</h1>
+                    <h3>Clients</h3>
+                </div>
+                <div>
+                    <h1>150+</h1>
+                    <h3>Ready Property</h3>
+                </div>
+            </div>
+        </div>
+        <div class="banner-gallery">
+            
+            <div>
+                <div class="gallery-circle">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <defs>
+                          <path id="circle"
+                            d="
+                              M 50, 50
+                              m -37, 0
+                              a 37,37 0 1,1 74,0
+                              a 37,37 0 1,1 -74,0"/>
+                        </defs>
+                        <text id="circle-text">
+                          <textPath xlink:href="#circle">
+                            Find Your Dream Real Estate
+                          </textPath>
+                        </text>
+                    </svg>
+                    <i class="fa-solid fa-arrow-left-long"></i>
+
+                </div>
+                <img class="banner-img-1" src="/images//banner/banner1.png" alt="">
+            </div>
+            <div>
+                <img src="/images//banner/banner2.png" alt="">
+                <img id="banner-img-3" src="/images//banner/banner3.png" alt="">
+            </div>
+        </div>
     </section>
+    <!-- banner end -->
 </body>
 </html>
