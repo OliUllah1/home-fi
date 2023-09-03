@@ -633,3 +633,25 @@ svg {
 }
 
 /* contact-us style end */
+
+
+/* blog style start */
+#blog{
+    padding: 40px 80px;
+    
+}
+.blog-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.blog-info{
+    background-image: url('./images/features/features.png');
+    background-color: #282A2E;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* blog style end */
