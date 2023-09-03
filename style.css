@@ -556,3 +556,46 @@ svg {
 }
 
 /* services style end */
+
+
+/* testimonial style start */
+#testimonials{
+    padding: 50px 100px;
+    background-color: #282A2E;
+    margin: 20px 0;
+}
+#testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.person{
+    width: 100%;
+}
+.person h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff ;
+}
+.person p{
+    font: 16px;
+    color: #FFAD6E;
+    font-weight: 400;
+}
+.comments{
+    width: 150%;
+}
+.comments p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.testimonial-img{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* testimonial style end */
