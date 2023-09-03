@@ -145,7 +145,7 @@
 .search-btn{
     padding: 20px 30px;
     border: 0;
-    background-color: #709DFF;
+    background: linear-gradient(90deg, rgba(112,157,255,1) 0%, rgba(63,124,255,0.7819502801120448) 50%, rgba(78,134,255,1) 100%);
     cursor: pointer;
 }
 .achievement{
@@ -256,6 +256,7 @@ svg {
 .properties-title h1{
     font-size: 32px; 
     font-weight: 600;
+    color: #282A2E;
 }
 .properties-button1{
     border: 0; 
@@ -530,6 +531,22 @@ svg {
 /* services style start */
 #services{
     padding: 40px 80px;
+}
+#services-top{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: end; 
+    margin-bottom: 30px;
+}
+.service-subtitle{
+    color: #FFAD6E;
+    font-size: 16px; 
+    font-weight: 600;
+}
+.service-title{
+    font-size: 32px; 
+    font-weight: 600;
+    color: #282A2E;
 }
 .services-cards{
     margin-top: 60px;
@@ -810,7 +827,7 @@ svg {
         font-size: 14px;
     }
     .properties-title h1{
-        font-size: 24px;
+        font-size: 20px;
     }
     #properties{
         grid-template-columns: repeat(1,1fr);
@@ -864,6 +881,9 @@ svg {
     }
     #services{
         padding: 40px 10px;
+    }
+    .service-title{
+        font-size: 22px;
     }
     .services-cards{
         display: block;
