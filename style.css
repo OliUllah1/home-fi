@@ -593,9 +593,43 @@ svg {
     font-weight: 500;
 }
 .testimonial-img{
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.testimonial-img img{
+    width: 170px;
+}
 /* testimonial style end */
+
+/* contact-us style start */
+#contact-us{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contact-form{
+    background-color: #ffffff;
+    padding: 60px;
+    width: 100%;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.form{
+    margin-top: 40px;
+}
+.form input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #282A2E;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.contact-information{
+    width: 100%;
+}
+
+/* contact-us style end */
