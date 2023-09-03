@@ -366,6 +366,25 @@ svg {
     background-color: #FFFFFF;
     box-shadow: 1px 1px 3px #cacdd3;
 }
+.residences-img-2{
+    position: relative;
+}
+.view-button{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(25,25,25,1) 0%, rgba(56,57,60,0.03125) 100%);
+}
+.eye-btn{
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
 .card-details{
     padding: 20px;
 }
@@ -400,3 +419,97 @@ svg {
     color: #647589;
 }
 /* residences style end */
+
+
+/* about us style start */
+#about-us{
+    padding: 40px 80px;
+}
+.about-title h5{
+    color: #FFAD6E;
+    font-size: 16px; 
+    font-weight: 600;
+}
+.about-title h3{
+    font-size: 32px; 
+    font-weight: 600;
+}
+.about-information{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 48px;
+}
+#about-facility{
+    background-image: url('./images/features/features.png');
+    background-color: #282A2E;
+    background-size: cover;
+    padding: 30px;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+   
+}
+.facility-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.facility-details p{
+    color: #EDEDED;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-details h1{
+    font-size: 29px;
+    font-weight: 600;
+    color: #282A2E;
+    margin-right: 100px;
+}
+.about-subtitle{
+    color: #647589;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.about-btn{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #4E86FF;
+    padding: 12px 28px;
+    border: 0;
+}
+.about-img{
+    position: relative;
+}
+.images-comment{
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+.quote-icon{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: #ffffff;
+    text-align: center; 
+    color: #FFAD6E;  
+    margin-top: -40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 18px;
+}
+.images-comment h3{
+    color: #282A2E;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* about us style end */
