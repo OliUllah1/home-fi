@@ -10,7 +10,10 @@
 <body id="body">
     <!-- navbar start -->
     <nav id="navbar">
-        <img src="/images/navbar/homefi.png" alt="">
+        <div style="display: flex; align-items: center; gap: 20px;">
+        <button id="menu-bar"><i class="fa-solid fa-bars"></i></button>
+            <img src="/images/navbar/homefi.png" alt="">
+        </div>
         <div id="navbar-right-side">
             <ul class="menu">
                 <li><a id="home" href="">Home</a></li>
@@ -31,7 +34,7 @@
     <!-- navbar end -->
 
     <!-- banner start -->
-    <section id="banner">
+    <section id="banner"> 
         <div id="banner-top-circle"></div>
         <div class="rent-option">
             <div  class="rent-input">
@@ -63,6 +66,27 @@
                 <button class="banner-button-1">Buy</button>
                 <button class="banner-button-2">Rent</button>
             </div>
+            <div class="rent-mobile">
+                <div  class="rent-input">
+                    <select>
+                        <option value="">Location</option>
+                      </select>
+                      <p>Long beach, California</p>
+                </div>
+                <div  class="rent-input">
+                    <select>
+                        <option value="">Type</option>
+                      </select>
+                      <p>House & Villa</p>
+                </div>
+                <div  class="rent-input">
+                    <select>
+                        <option value="">Payment</option>
+                      </select>
+                      <p>Advance</p>
+                </div>
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
             <div class="achievement">
                 <div>
                     <h1>50+</h1>
@@ -78,8 +102,7 @@
                 </div>
             </div>
         </div>
-        <div class="banner-gallery">
-            
+        <div class="banner-gallery"> 
             <div>
                 <div class="gallery-circle">
                     <svg viewBox="0 0 100 100" width="100" height="100">
@@ -103,7 +126,7 @@
                 <img class="banner-img-1" src="/images//banner/banner1.png" alt="">
             </div>
             <div>
-                <img src="/images//banner/banner2.png" alt="">
+                <img id="banner-img-2" src="/images//banner/banner2.png" alt="">
                 <img id="banner-img-3" src="/images//banner/banner3.png" alt="">
             </div>
         </div>
@@ -347,9 +370,9 @@
     <!-- services section start -->
     <section id="services">
         <div id="properties-top">
-            <div class="properties-title">
+            <div>
                 <h6>Preferences</h6>
-                <h1>What You Are Looking For?.</h1>
+                <h1  class="service-title">What You Are Looking For?.</h1>
             </div>
             <div class="">
                 <button class="properties-button1"><i class="fa-solid fa-angle-left"></i></button>
@@ -363,7 +386,7 @@
                     <div style="width: 100%;">
                         <button style="border: 0; cursor: pointer; padding:16px 24px; background-color: #709DFF; font-size: 14px; font-weight: 600; color: #ffffff;">Choose Now</button>
                     </div>
-                    <img style="width: 100px; padding-top: 30px;" src="/images/services/service-arrow.png" alt="">
+                    <img id="arrow" style="width: 100px; padding-top: 30px;" src="/images/services/service-arrow.png" alt="">
                 </div>
             </div>
             <div class="service1">
@@ -456,17 +479,17 @@
             <div class="blog-info">
                 <div>
                     <h1 style="font-size: 28px; text-align: center; font-weight: 600; color: #ffffff;">Providing the Best Real Estate News & Articles</h1>
-                <button style="background-color: #709DFF; font-weight: 600; font-size: 14px; padding: 14px 30px; margin-top: 30px; cursor: pointer; border: 0; color: #ffffff; margin-left: 30px;">Read All</button>
+                <button class="btn-blog">Read All</button>
                 </div>
             </div>
-            <div>
+            <div class="blog-card">
                 <img style="width: 100%;" src="/images/blog/blog1.png" alt="">
                 <p style="color: #647589; font-size: 14px; font-weight: 500; margin: 10px 0;">05 June 2022</p>
                 <hr>
                 <h3 style="color: #282A2E; font-size: 16px; font-weight: 500; margin: 10px 0 16px 0;">Housing Challenges or Housing Opportunity? It Depends.</h3>
                 <button style="text-decoration: underline; color: #709DFF; font-size: 14px; font-weight: 500; border: 0; background-color: #ffffff;">Read More</button>
             </div>
-            <div style="position: relative;">
+            <div class="blog-card" style="position: relative;">
                 <p style="position: absolute; top: 20px; color: #ffffff; background-color: #709DFF; font-size: 9px; font-weight: 500; padding: 8px 16px; right: 20px;">Featured</p>
                 <img style="width: 100%;" src="/images/blog/blog2.png" alt="">
                 <p style="color: #647589; font-size: 14px; font-weight: 500; margin: 10px 0;">05 June 2022</p>
@@ -484,5 +507,57 @@
         </div>
     </section>
     <!-- blog section end -->
+
+    <!-- footer section start -->
+    <footer id="footer-section">
+        <div id="footer">
+            <div style="width: 100%;">
+                <img src="/images/footer/footer-logo.png" alt="">
+                <p style="color: #ffffff; font-size: 16px; font-weight: 400; margin: 15px 0;"> Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p>
+                <div style="background-color: #000; display: flex; align-items: center; gap: 40px; padding: 20px 40px; width: 75%;">
+                    <i style="color: #709DFF; font-size: 28px;" class="fa-solid fa-phone-volume"></i>
+                    <div style="color: #ffffff; font-size: 14px; font-weight: 500;">
+                        <p style="margin-bottom: 10px;">Call Agent</p>
+                        <p>(+111 658 1254 878)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="help-column" style="width: 50%; color: #ffffff;">
+                <h4 style="font-size: 18px; font-weight: 700; margin-bottom: 20px;">Need Help?</h4>
+                <ul class="help">
+                    <li>Support</li>
+                    <li>Get Started</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="learn-column" style="width: 50%; color: #ffffff;">
+                <h4 style="font-size: 18px; font-weight: 700; margin-bottom: 20px;">Learn More</h4>
+                <ul class="learn">
+                    <li>About Us</li>
+                    <li>Features</li>
+                    <li>Customers</li>
+                    <li>Newsletter</li>
+                </ul>
+            </div>
+            <div style="width: 100%;">
+                <h4 style="color: #ffffff; font-size: 18px; font-weight: 700; margin-bottom: 20px;">Newsletter</h4>
+                <form action="">
+                    <input class="footer-input" placeholder="Enter Email" type="text">
+                    <button style="width: 100%; padding: 10px; background-color: #709DFF; border: 0; color: #ffffff; font-size: 16px; font-weight: 600; text-align: center;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div style="margin-top: 40px; color: #ffffff; display: flex; justify-content: space-between; align-items: center;">
+            <p>&#169;2022 Housiyo. All rights reserved.</p>
+            <div style="display: flex; align-items: center; gap: 20px; font-size: 18px;">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
 </body>
 </html>

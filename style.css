@@ -17,6 +17,9 @@
     justify-content: space-between;
     padding: 20px 80px;
 }
+#menu-bar{
+    display: none;
+}
 #navbar-right-side{
     display: flex; 
     align-items: center;
@@ -42,8 +45,9 @@
 }
 .flag-input{
     border: 0;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #282A2E;
 }
 .btn-sign-in{
     padding: 10px 28px;
@@ -106,7 +110,7 @@
     font-weight: 600;
     color: #647589;
     border-bottom: 2px solid #709DFF;
-    box-shadow: 1px 1px 2px rgb(201, 196, 196);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     cursor: pointer;
 }
 .rent-option{
@@ -119,7 +123,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    box-shadow: 5px 5px 10px rgb(224, 220, 220);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.rent-mobile{
+    display: none;
 }
 .rent-input select{
     border: 0;
@@ -167,7 +174,7 @@
     padding: 5px;
     border-radius: 100%;
     background-color: #FFFFFF;
-    box-shadow: 5px 5px 10px rgb(224, 220, 220);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     margin: auto;
 }
 
@@ -215,7 +222,7 @@ svg {
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
     color: #EDEDED;
-    padding: 40px 80px;
+    padding: 80px;
     gap: 40px;
 }
 .feature h1{
@@ -274,24 +281,28 @@ svg {
     width: 100%;
     height: 353px;
     position: relative;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .propertie2{
     background-image: linear-gradient(to bottom, rgba(76, 77, 85, 0.52), rgba(0, 0, 0, 0.73)), url('/images/properties/propertie2.png');
     width: 100%;
     height: 353px;
     position: relative;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .propertie3{
     background-image: linear-gradient(to bottom, rgba(76, 77, 85, 0.52), rgba(0, 0, 0, 0.73)), url('/images/properties/propertie3.png');
     width: 100%;
     height: 353px;
     position: relative;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .propertie4{
     background-image: linear-gradient(to bottom, rgba(76, 77, 85, 0.52), rgba(0, 0, 0, 0.73)), url('/images/properties/propertie4.png');
     width: 100%;
     height: 353px;
     position: relative;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .propertie1 button{
     border: 0;
@@ -364,7 +375,7 @@ svg {
 }
 .residences-card{
     background-color: #FFFFFF;
-    box-shadow: 1px 1px 3px #cacdd3;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .residences-img-2{
     position: relative;
@@ -487,11 +498,12 @@ svg {
 .images-comment{
     position: absolute;
     left: 40px;
-    bottom: 80px;
+    bottom: 40px;
     width: 200px;
     height: 100px;
     background-color: #ffffff;
     padding: 20px 40px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .quote-icon{
     width: 48px;
@@ -531,12 +543,15 @@ svg {
     height: 353px;
     position: relative;
     background-repeat: no-repeat;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .service2{
     background-image: linear-gradient(to bottom, rgba(76, 77, 85, 0.52), rgba(0, 0, 0, 0.73)), url('/images/services/services2.png');
     width: 100%;
     height: 353px;
     position: relative;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 
 }
 .service3{
@@ -544,12 +559,16 @@ svg {
     width: 100%;
     height: 353px;
     position: relative;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .service4{
     background-image: linear-gradient(to bottom, rgba(76, 77, 85, 0.52), rgba(0, 0, 0, 0.73)), url('/images/services/services4.png');
     width: 30%;
     height: 353px;
     position: relative;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .service-details{
     width: 100%;
@@ -638,6 +657,7 @@ svg {
 /* blog style start */
 #blog{
     padding: 40px 80px;
+    margin-bottom: 40px;
     
 }
 .blog-cards{
@@ -654,4 +674,277 @@ svg {
     justify-content: center;
     
 }
+.btn-blog{
+    background-color: #709DFF;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 14px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 0;
+    color: #ffffff;
+    margin-left: 30px;
+}
 /* blog style end */
+
+/* footer style start  */
+#footer-section{
+    padding: 60px;
+    background-color: #282A2E;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 48px;
+}
+.help li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.learn li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-input{
+    padding: 10px 20px;
+    width: 87%;
+    margin-bottom: 10px;
+}
+/* footer style end  */
+
+
+/* mobile responsive style */
+@media screen and (max-width:875px){
+    #navbar{
+        padding: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    #menu-bar{
+        display: block;
+        width: 30px;
+        height: 30px;
+        color: #282A2E;
+        font-size: 18px;
+        border-radius: 100%;
+    }
+    #banner{
+        padding: 40px 10px;
+        display: block;
+    }
+    #banner-top-circle{
+        top: 26px;
+        left: 0;
+    }
+    .banner-title{
+        padding-right: 0;
+        font-size: 40px;
+    }
+    #banner-line{
+        margin: 0;
+    }
+    .rent-option{
+        display: none;
+    }
+    .rent-mobile{
+        background-color: #ffffff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .rent-input select{
+        font-size: 12px;
+    }
+    .rent-input p{
+        font-size: 9px;
+    }
+    .fa-magnifying-glass{
+        font-size: 14px;
+    }
+    .search-btn{
+        padding: 10px 15px;
+    }
+    .achievement{
+        margin: 40px 0;
+    }
+    .achievement h1{
+        font-size: 20px;
+    }
+    .achievement h3{
+        font-size: 12px;
+    }
+    .banner-gallery{
+        width: 100%;
+    }
+    .gallery-circle{
+        width: 100px;
+        height: 100px;
+    }
+    .banner-img-1{
+        width: 100%;
+        margin-top: 150px;
+    }
+    #banner-img-2{
+        width: 100%;
+    }
+    #banner-img-3{
+        width: 100%;
+    }
+    #features{
+        grid-template-columns: repeat(1,1fr);
+        padding: 80px 10px;
+    }
+    #properties-section{
+        padding: 20px 10px;
+    }
+    .properties-title h6{
+        font-size: 14px;
+    }
+    .properties-title h1{
+        font-size: 24px;
+    }
+    #properties{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .propertie1{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .propertie2{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .propertie3{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .propertie4{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #residences{
+        padding: 40px 10px;
+    }
+    .residences-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #about-us{
+        padding: 40px 10px;
+    }
+    .about-information{
+        display: block;
+        margin-top: 20px;
+    }
+    .about-details{
+        margin-bottom: 20px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    
+    .facility-details p{
+        font-size: 10px;
+    }
+    .images-comment{
+        width: 150px;
+        height: 80px;
+        padding: 20px;
+    }
+    .images-comment h3{
+        font-size: 16px;
+    }
+    #services{
+        padding: 40px 10px;
+    }
+    .services-cards{
+        display: block;
+        margin-top: 30px;
+    }
+    .service4{
+        display: none;
+    }
+    #arrow{
+        display: none;
+    }
+    .service1{
+        background-size: cover;
+        background-position: center;
+        margin: 20px 0 10px 0;
+    }
+    .service2{
+        background-size: cover;
+        background-position: center;
+        margin: 10px 0;
+    }
+    .service3{
+        background-size: cover;
+        background-position: center;
+        margin: 10px 0;
+    }
+    #testimonials{
+        padding: 50px 10px;
+        
+    }
+    #testimonial{
+        display: block;
+    }
+    .person{
+        margin-bottom: 20px;
+        
+    }
+    .comments{
+        width: 100%;
+    }
+    .testimonial-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);    
+    }
+    #contact-us{
+        padding: 40px 10px;
+        display: block;
+    }
+    .contact-form{
+        padding: 30px 0;
+        margin-bottom: 40px;
+    }
+    #blog{
+        padding: 40px 10px;
+    }
+    .blog-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-info{
+        height: 450px;
+        margin-bottom: 20px;
+    }
+    .btn-blog{
+        margin-left: 100px;
+    }
+    .blog-card{
+        margin-bottom: 20px;
+    }
+    #footer-section{
+        padding: 40px 10px;
+    }
+    #footer{
+        display: block;
+    }
+    .help-column{
+        margin: 20px 0;
+    }
+    .learn-column{
+        margin: 20px 0;
+    }
+    .footer-input{
+        width: 88%;
+    }
+}
